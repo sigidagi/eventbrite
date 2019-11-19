@@ -13,8 +13,6 @@
 #include "curlpp/Options.hpp"
 #include "curlpp/Exception.hpp"
 
-// curl -H "Accept:application/json" -H "Authorization:Bearer YAFY5RPXHFV5I7XOTDGC" https://www.eventbriteapi.com/v3/events/search/?location.address=denmark--aalborg
-
 namespace brite {
 
 inline bool exist(const json& j, const std::string& key) {
